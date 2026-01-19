@@ -9,20 +9,6 @@ Minimal PyTorch implementations of foundational deep learning papers. Each imple
 | [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) | [`resnets/`](./resnets) | ResNet-18 for image classification |
 | [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | [`transformers/`](./transformers) | GPT-2 decoder-only transformer |
 
-## Structure
-
-```
-paper2code/
-├── resnets/
-│   ├── resnets.py      # ResNet-18 architecture
-│   ├── utils.py        # Visualization utilities
-│   └── README.md       # Paper overview + usage
-│
-└── transformers/
-    ├── transformer.py  # GPT-2 architecture
-    └── README.md       # Paper overview + usage
-```
-
 ## Requirements
 
 - PyTorch >= 1.0
